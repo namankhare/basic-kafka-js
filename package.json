@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"add-topic": "node create-topic.js",
+		"remove-topic": "node delete-topic.js",
+		"consumer": "nodemon consumer.js",
+		"producer": "nodemon producer.js"
+	},
+	"dependencies": {
+		"kafkajs": "^2.2.4",
+		"nodemon": "^3.1.4"
+	}
+}
