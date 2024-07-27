@@ -12,6 +12,7 @@ confluentinc/cp-kafka`
 
 ## Setup (NodeJS)
 
+-   Run `npm install` to install the packages.
 -   Replace `<your-ip>` in the `client.js` file.
 -   Add topic name.
 -   Run `create-topic.js` to create the topic. eg: use `npm run add-topic`.
